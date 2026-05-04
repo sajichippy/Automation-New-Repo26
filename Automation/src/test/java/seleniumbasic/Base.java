@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Base {
-	public WebDriver driver; // WebDriver declaration // webriver is a interface so we cant create object of a interface 
+	public WebDriver driver; // globally declare and WebDriver declaration // webriver is a interface so we cant create object of a interface 
 	
 	public void browserLaunch(){
 		
