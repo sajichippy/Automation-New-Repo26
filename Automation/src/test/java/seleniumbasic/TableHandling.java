@@ -18,7 +18,7 @@ public class TableHandling extends Base {
 		TableHandling fetchData = new TableHandling();
 		fetchData.browserLaunch();
 		fetchData.verifyTable();
-		fetchData.browserCloseAndQuit();
+		//fetchData.browserCloseAndQuit();
 
 	};
 
