@@ -14,7 +14,7 @@ public class HandlingJavaScriptExecutor extends Base {
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", showMessage);
-		js.executeScript("window.scrollBy(0,350)", "");
+		js.executeScript("window.scrollBy(0,350)", "");   // vertical scroll by and for horizontal give value in first place
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
